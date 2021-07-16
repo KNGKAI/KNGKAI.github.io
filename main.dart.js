@@ -72244,12 +72244,12 @@ else{p=H.a6(m).i("a7<1,bF*>")
 p=M.cQ(n,B.jb(P.ak(new H.a7(m,new Q.adc(l),p),!0,p.i("aL.E")),n,C.n,!1),C.p,n,n,n,n,60,n,n,n,n,n)
 l=p}if(k.length===0)s=T.e4(L.a3("No Products Found!",n,n,n,n,n,n,n,n),n,n)
 else{r=s.U(r).f
-p=C.v.ek(k.length/2)
+p=C.v.ek(k.length/3)
 o=H.a6(k).i("a7<1,h*>")
 o=P.ak(new H.a7(k,new Q.add(s),o),!0,o.i("aL.E"))
 s=G.anI(o,!0,!0,!0)
 o=o.length
-s=M.cQ(n,new B.HP(new B.a80(2,10,10,1),s,C.Ay,C.l,!1,n,!1,n,!1,n,o,C.b0,C.vN,n,C.as,n),C.p,n,n,n,n,(q.a.a/2+40)*p,n,n,n,n,r.a.a)}return B.jb(H.b([l,s],t.t),n,C.l,!1)},
+s=M.cQ(n,new B.HP(new B.a80(3,10,10,1),s,C.Ay,C.l,!1,n,!1,n,!1,n,o,C.b0,C.vN,n,C.as,n),C.p,n,n,n,n,(q.a.a/3+40)*p,n,n,n,n,r.a.a)}return B.jb(H.b([l,s],t.t),n,C.l,!1)},
 $1:function(a){return this.$3$fetchMore$refetch(a,null,null)},
 $C:"$3$fetchMore$refetch",
 $D:function(){return{fetchMore:null,refetch:null}},
