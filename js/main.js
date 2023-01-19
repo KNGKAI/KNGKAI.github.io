@@ -2,8 +2,8 @@
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 var renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+renderer.setSize( window.innerWidth - 1, window.innerHeight - 1 );
+document.getElementById("container").appendChild( renderer.domElement );
 
 // Add a cube to the scene
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
@@ -20,4 +20,5 @@ function render() {
   cube.rotation.y += 0.1;
   renderer.render( scene, camera );
 }
+
 render();
